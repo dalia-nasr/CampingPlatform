@@ -1,4 +1,4 @@
-const Campground = require('../models/Campground');
+const Campground = require('../models/campground');
 const { cloudinary } = require("../cloudinary");
 const catchAsync = require('../utils/catchAsync');
 const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding');
