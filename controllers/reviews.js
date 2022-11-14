@@ -1,5 +1,5 @@
 const catchAsync = require('../utils/catchAsync');
-const Campground = require('../models/campground');
+const Campground = require('../models/Campground');
 const Review = require('../models/review');
 
 
