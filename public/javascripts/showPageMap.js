@@ -1,8 +1,3 @@
-// L.mapbox.accessToken = mapToken;
-// const map = L.mapbox.map('map')
-//     .setView([40, -74.50], 9)
-//     .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
-
 mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'map', // container ID
