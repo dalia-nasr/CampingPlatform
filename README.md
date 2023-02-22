@@ -1,3 +1,6 @@
 # CampingPlatform
 
-https://campingplatform.herokuapp.com/
+## Public Link:
+https://camping-platform.onrender.com/
+
+
