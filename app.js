@@ -93,13 +93,6 @@ app.use('/', usersRoutes);
 app.use('/campgrounds', campgroundsRoutes);
 app.use('/campgrounds/:id/review', reviewsRoutes);
 
-
-// app.get('/fakeUser', async(req, res) => {
-//     const user = new User({email:'dalia@gmail.com', username:'dalia'})
-//     const newuser = await(User.register(user,'hello'));
-//     res.send(newuser);
-// })
-
 app.get('/', (req, res) => {
     res.render('home') // views/home.ejs
 })
